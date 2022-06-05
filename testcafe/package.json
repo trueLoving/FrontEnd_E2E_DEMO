@@ -1,0 +1,11 @@
+{
+  "name": "testcafe_demo",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "testcafe chrome tests/"
+  },
+  "author": "trueLoving",
+  "devDependencies": {
+    "testcafe": "^1.19.0"
+  }
+}
