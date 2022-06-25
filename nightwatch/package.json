@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch ./tests/nightwatch-examples/ecosia.js"
+    "test": "nightwatch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "geckodriver": "^3.0.1",
     "nightwatch": "^2.1.7"
   }
 }
