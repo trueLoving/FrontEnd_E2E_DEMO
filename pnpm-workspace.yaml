@@ -1,4 +1,4 @@
 packages:
-  - 'nightwatch'
-  - 'playwright'
-  - 'testcafe'
+  - "nightwatch"
+  - "playwright"
+  - "testcafe"

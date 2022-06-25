@@ -2,10 +2,12 @@
   "name": "testcafe_demo",
   "version": "0.0.1",
   "scripts": {
-    "test": "testcafe chrome tests/"
+    "test": "testcafe chrome tests/",
+    "test:record": "npm run test -- --video artifacts/videos"
   },
   "author": "trueLoving",
   "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "testcafe": "^1.19.0"
   }
 }
